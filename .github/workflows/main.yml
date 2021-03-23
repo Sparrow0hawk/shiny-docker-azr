@@ -39,3 +39,4 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: shiny-docker-acr
             location: 'west europe'
+            ports: 3838
